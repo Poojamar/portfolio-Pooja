@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+header{
+    height:15%;
+}
+main{
+    height: 85%;
+    display: flex;
+
+}
+
+.headerContainer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.personName{
+    width: 40%;
+}
+.personName h1{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.personName h1:hover{
+    color:crimson;
+    font-size: 45px;
+    transform:scale(1s);
+    transition: 0.7s;  
+}
+.links{
+width: 60%;
+}
+.links a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+margin-right:70px ;
+position: relative;
+}
+.links a:hover{
+    color: crimson;
+    font-size:23px ;
+}
+
+.links a::after{
+    content: "";
+    position:absolute;
+    height: 3px;
+    width: 0%;
+    background-color: powderblue;
+    left: 0;
+    bottom: -8px;
+    transition: 0.7s;
+}
+.links a:hover::after{
+    width: 100%;
+}
+.personPic  a {
+   text-decoration: none;
+   font-size: 30px;
+   color: white;
+}
+.personPic a:hover{
+    color: crimson;
+}
+.contactHeading h1{
+    color: white;
+    font-size: 27px;
+    position: relative; 
+    margin: 10px;
+    text-align: center;
+ 
+}
+.contactHeading h1:hover{
+color:powderblue;
+font-size: 35px;
+transform: scale(1s);
+transition: 0.7s; 
+}
+.contactHeading h1::after{
+    content: "";
+    position:absolute;
+    height: 3px;
+    width: 0%;
+    background-color:crimson;
+    left: 0;
+    bottom: -8px;
+    transition: 0.7s;
+}
+.contactHeading h1:hover:after{
+    width: 100%;
+}
+.contactData{
+    height: 450px;
+    width:1400px;
+    border: 1px solid powderblue;
+    box-shadow: 0 0 10px powderblue;
+    margin:50px;
+    display: flex;
+}
+
+.contactLeft{
+    width: 40%;
+    color: white;
+    padding: 25px;
+    
+}
+.contactLeft h3{
+    /* margin-bottom: 20px; */
+    font-size: 31px;
+    color: crimson;
+}
+.contactLeft h5,p{
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+.contactLeft p i{
+    margin-left: 10px;
+}
+
+.contactLeft i{
+    color:powderblue;
+    font-size:26px ;
+    
+}
+.contactLeft i:hover{
+    color: crimson;
+}
+
+.contactRight {
+ width: 60%;
+}
+.contactRight .nameDetails{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.contactRight .username{
+    margin: 30px;
+    height: 50px;
+    
+}
+.username input{
+    width: 40%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid powderblue;
+    font-size: 17px;
+    padding: 20px;
+    color: white;
+    margin-right: 7px;
+}
+.email input{
+    width: 75%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid powderblue;
+    font-size: 17px;
+    padding: 20px;
+    color: white;
+    margin: 30px;
+}
+.Phno input{
+    width:75%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid powderblue;
+    font-size: 17px;
+    padding: 20px;
+    color: white;
+    margin: 30px;
+}
+
+.username input::placeholder{
+    color:grey;
+}
+
+.btn{
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 15px;
+    border:1px solid powderblue;
+    color:white;
+    background:none;
+    margin-left:30px ;
+    margin-top: 30px;
+    
+   
+}
+
+.btn:hover{
+    background-color:crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.profileData{
+    width:90% ;
+    display: flex;
+    box-shadow: 0 0 10px powderblue;
+    border: 1px solid powderblue; 
+    margin: 150px auto;
+    /* background-color:lemonchiffon;   */
+}
+.heading{
+    height: 80px;
+    font-size: 32px;
+    line-height: 90px;
+}
+.heading ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.heading i:hover{
+color:crimson;
+}
+.heading h1{
+    color: crimson;
+    text-align: center;
+}
+.left{
+    width: 40%;
+}
+.right{
+    width: 60%;
+}
+.para{
+    height: 80px;
+    font-size: 28px;
+    color: rgb(96, 224, 240);
+    text-align: center;
+    margin-top:130px ;
+}
+.skill{
+display: flex;
+color: white;
+font-size: 21px;
+text-align: center;
+border-radius:10px ;
+
+}
+.one{
+    width: 20%;
+    height: 170px;
+    background-color:rgb(109, 174, 239);
+   padding: 40px;
+   border-radius: 95px;
+}
+.two{
+    width: 20%;
+    height: 170px;
+    background-color:rgb(242, 175, 52);
+   padding: 40px;
+   border-radius: 95px;
+}
+.three{
+    width: 20%;
+    height: 170px;
+    background-color:rgb(247, 122, 122);
+   padding: 40px;
+   border-radius: 95px;
+}
+.four{
+    width: 20%;
+    height: 170px;
+    background-color:rgb(217, 217, 75);
+   padding: 30px;
+   border-radius: 95px;
+}
+.five{
+    width: 20%;
+    height: 170px;
+    background-color:rgb(109, 241, 109);
+   padding: 30px;
+   border-radius: 95px;
+}

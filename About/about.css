@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+header{
+    height:15%;
+}
+main{
+    height: 85%;
+
+}
+
+.headerContainer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.personName{
+    width: 40%;
+}
+.personName h1{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.personName h1:hover{
+    color:crimson;
+    font-size: 45px;
+    transform:scale(1s);
+    transition: 0.7s;  
+}
+.links{
+width: 60%;
+}
+.links a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+margin-right:70px ;
+position: relative;
+}
+.links a:hover{
+    color: crimson;
+    font-size:23px ;
+}
+
+.links a::after{
+    content: "";
+    position:absolute;
+    height: 3px;
+    width: 0%;
+    background-color: powderblue;
+    left: 0;
+    bottom: -8px;
+    transition: 0.7s;
+}
+.links a:hover::after{
+    width: 100%;
+}
+.personPic  i {
+   text-decoration: none;
+   font-size: 30px;
+   color: white;
+}
+.personPic i:hover{
+    color: crimson;
+    transition: 0.7s;
+    transform: scale(1s);
+}
+
+
+#headingHeader .headerdata{
+    margin-top:10px ;
+    color: white;
+    padding: 60px;
+}
+.headerdata h1{
+    font-size: 25px;
+   text-align: center;
+}
+.headerdata h1:hover{
+    color: crimson;
+    font-size: 35px;
+    transform: scale(1.5s);
+    transition: 0.8s;
+    position: relative;
+}
+
+.headerdata h1::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: powderblue;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.headerdata h1:hover:after{
+    width: 100%;
+}
+
+.content{
+color: white;
+padding: 10px;
+line-height: 28px;
+margin-left: 50px;
+}
+.content h3{
+    font-size: 25px;
+    margin: 18px;
+}
+.content p{
+    font-size: 19px;
+}
+
+.mySkills a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 380px;
+    position: relative;
+}
+.mySkills a:hover{
+    color: crimson;
+}
+.mySkills a::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: powderblue;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    transition: 0.5s;  
+}
+.mySkills a:hover:after{
+    width: 100%;
+}
+
+.mySkills ul{
+    display: flex;
+    padding: 60px;
+  
+}
+.educ{
+    margin: 50px;
+    display: flex;
+    gap: 30px;
+}
+#Education{
+    width: 33%;
+    background-color: black;
+    box-shadow: 0 0 10px powderblue;
+    border: 1px solid powderblue;
+    color: white;
+    padding: 25px;
+}
+#Education h6,h2,i,p{
+    color: white;
+    font-size: 20px;
+    
+}
+#Education h1{
+    padding: 15px;
+    font-size: 26px;
+}
+#Education h1:hover{
+    color:crimson;
+}
+
+#Skills{
+    width: 33%;
+    background-color: black;
+    box-shadow: 0 0 10px powderblue;
+    border: 1px solid powderblue;
+    color: white; 
+    padding: 25px;
+}
+#skills dl,dd,dt{
+    padding: 15px;
+    color: white;
+}
+#skills dd,b{
+    font-size:20px ;
+}
+#Skills h1{
+    padding: 15px;
+    font-size: 26px;
+}
+#Skills h1:hover{
+    color:crimson;
+}
+#Experiance{
+    width: 33%;
+    background-color: black;
+    box-shadow: 0 0 10px powderblue;
+    border: 1px solid powderblue;
+    color: white;
+}
+#Experiance h1{
+    padding: 15px;
+    font-size: 26px;
+}
+#Experiance h1:hover{
+    color:crimson;
+}
+#Experiance h3,p{
+    padding: 15px;
+}
+
+

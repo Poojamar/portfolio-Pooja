@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+header{
+    height:15%;
+}
+main{
+    height: 85%;
+    display: flex;
+
+}
+
+.headerContainer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.personName{
+    width: 40%;
+}
+.personName h1{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.personName h1:hover{
+    color:crimson;
+    font-size: 45px;
+    transform:scale(1s);
+    transition: 0.7s;  
+}
+.links{
+width: 60%;
+}
+.links a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+margin-right:70px ;
+position: relative;
+}
+.links a:hover{
+    color: crimson;
+    font-size:23px ;
+}
+
+.links a::after{
+    content: "";
+    position:absolute;
+    height: 3px;
+    width: 0%;
+    background-color: powderblue;
+    left: 0;
+    bottom: -8px;
+    transition: 0.7s;
+}
+.links a:hover::after{
+    width: 100%;
+}
+.personPic  a {
+   text-decoration: none;
+   font-size: 30px;
+   color: white;
+}
+.personPic a:hover{
+    color: crimson;
+}
+.service{
+    font-size: 22px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.service h1{
+    position: relative;
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.service h1:hover{
+    color:powderblue;
+    font-size: 35px;
+    transform: scale(1.5s);
+    transition: 0.7s;
+}
+.service h1::after{
+    content: "";
+    position:absolute;
+    height: 3px;
+    width: 0%;
+    background-color: crimson;
+    left: 0;
+    bottom: -8px;
+    transition: 0.7s;
+}
+.service h1:hover::after{
+    width: 100%;
+}
+.service p{
+    font-size:21px ;
+}
+
+.cards{
+    display: flex;
+    gap:26px;
+    line-height: 35px;
+    
+}
+.cards i{
+    font-size: 55px;
+}
+
+.cards i:hover{
+    font-size: 65px;
+    color:powderblue; 
+    transform:scale(0.7s);
+    transition:1s;  
+}
+.card1{
+    width: 33%;
+    box-shadow: 0 0 10px powderblue;
+    border: 1px solid powderblue;
+    padding: 18px;
+}
+.card1:hover{
+    background-color: crimson;
+    transition: background 0.5s, transform 0.5s;
+    transform: translateY(-10px);
+}
+.card2{
+    width: 33%;
+    box-shadow: 0 0 10px powderblue;
+    border: 1px solid powderblue;
+    padding: 18px;
+}
+.card2:hover{
+    background-color: crimson;
+    transition: background 0.5s, transform 0.5s;
+    transform: translateY(-10px);
+}
+.card3{
+    width: 33%;
+    box-shadow: 0 0 10px powderblue;
+    border: 1px solid powderblue;
+    padding: 18px;
+}
+.card3:hover{
+    background-color: crimson;
+    transition: background 0.5s, transform 0.5s;
+    transform: translateY(-10px);
+}
+.card1 a{
+    text-decoration: none;
+    color:white;
+}
+.card1 a:hover{
+    color: rgb(54, 206, 226);
+}
+.card2 a{
+    text-decoration: none;
+    color:white;
+}
+.card2 a:hover{
+    color: rgb(48, 215, 237);
+}
+.card3 a{
+    text-decoration: none;
+    color:white;
+}
+.card3 a:hover{
+    color: rgb(35, 178, 197);
+}
+

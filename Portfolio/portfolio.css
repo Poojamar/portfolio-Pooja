@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+header{
+    height:15%;
+}
+main{
+    height: 85%;
+}
+
+.headerContainer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.personName{
+    width: 40%;
+}
+.personName h1{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.personName h1:hover{
+    color:crimson;
+    font-size: 45px;
+    transform:scale(1s);
+    transition: 0.7s;  
+}
+.links{
+width: 60%;
+}
+.links a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+margin-right:70px ;
+position: relative;
+}
+.links a:hover{
+    color: crimson;
+    font-size:23px ;
+}
+
+.links a::after{
+    content: "";
+    position:absolute;
+    height: 3px;
+    width: 0%;
+    background-color: powderblue;
+    left: 0;
+    bottom: -8px;
+    transition: 0.7s;
+}
+.links a:hover::after{
+    width: 100%;
+}
+.personPic  a {
+   text-decoration: none;
+   font-size: 30px;
+   color: white;
+}
+.personPic a:hover{
+    color: crimson;
+}
+.details{
+    color: white;
+   
+}
+.detailsHeading h1{
+    color: white;
+    margin: 60px;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+}
+.detailsHeading h1::after{
+    content: "";
+    position:absolute;
+    height: 3px;
+    width: 0%;
+    background-color: powderblue;
+    left: 0;
+    bottom: -8px;
+    transition: 0.7s;
+}
+.detailsHeading h1:hover:after{
+    width: 100%;
+}
+.leftData{
+    display: flex;
+}
+.left{
+    color: white;
+    margin-left:12%;
+    font-size: 26px;
+}
+.left dt{
+    font-size: 20px;
+}
+.left dd{
+    color:crimson;
+}
+
+.btn button{
+    padding: 10px 50px;
+    border-radius: 15px;
+    margin-left:15%;
+    margin-top: 60px;
+    font-size: 17px;
+}
+.btn button:hover{
+    background-color: crimson;
+    color: powderblue;
+    font-weight: bolder;
+}
