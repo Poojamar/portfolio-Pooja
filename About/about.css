@@ -171,9 +171,15 @@ margin-left: 50px;
     font-size: 20px;
     
 }
+
+#Education span{
+    margin-left: 20px;
+}
+
 #Education h1{
     padding: 15px;
     font-size: 26px;
+
 }
 #Education h1:hover{
     color:crimson;
